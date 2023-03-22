@@ -27,6 +27,9 @@ except ModuleNotFoundError as e:
 
 import streamlit as st
 from streamlit_random_generator.functions import random_int
+from extra_streamlit_tools.utils import init_session_keys
+
+init_session_keys({"randint_upper_limit": 10})
 
 st.title("Generate a random number")
 st.number_input(

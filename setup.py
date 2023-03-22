@@ -3,7 +3,7 @@ import os
 from setuptools import setup, find_packages
 
 
-base_packages = ["numpy==1.24.2"]
+base_packages = ["numpy==1.24.2", "extra_streamlit_tools"]
 
 
 def read(fname):
